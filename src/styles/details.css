@@ -1,0 +1,43 @@
+body{
+    background:#f4f6f9;
+}
+
+.card{
+    border-radius:18px;
+}
+
+.movie-img{
+    height:600px;
+    object-fit:cover;
+}
+
+.card-body h2{
+    font-size:2rem;
+}
+
+.card-body h5{
+    font-size:1.2rem;
+}
+
+.movie-text{
+    font-size:15px;
+    line-height:1.8;
+    color:#555;
+}
+
+@media(max-width:768px){
+
+.movie-img{
+    height:420px;
+}
+
+.card-body{
+    text-align:center;
+    padding:20px;
+}
+
+.card-body h2{
+    font-size:1.6rem;
+}
+
+}

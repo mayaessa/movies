@@ -1,0 +1,51 @@
+body{
+    background:#eef2f7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.card img{
+    height:350px;
+    object-fit:cover;
+}
+
+.card-title{
+    font-size:18px;
+    font-weight:600;
+}
+
+.btn-primary{
+    border-radius:10px;
+}
+
+input{
+    border-radius:10px!important;
+}
+@media(max-width:768px){
+
+.navbar{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+input{
+
+width:100%!important;
+
+}
+
+}
