@@ -5,7 +5,7 @@ import MovieDetails from "../pages/MovieDetails";
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movies">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
